@@ -1,0 +1,9 @@
+@startuml
+class java.util.ArrayList
+class java.util.Scanner
+class observer2.Publisher
+class observer2.Test
+interface observer2.Subscriber
+observer2.Publisher ..> java.util.ArrayList
+observer2.Publisher ..> java.util.Scanner
+@enduml
